@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/form',function() {
+    return view('form');
+ });
+
+Route::get('/validation','ValidationController@showform');
+Route::post('/validation','ValidationController@validateform');
