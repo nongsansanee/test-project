@@ -106,7 +106,7 @@
 
   <div>
   <button class="btn btn-large btn-primary" type="submit">Save</button>
-  <button type="button" class="btn btn-secondary">Cancel</button>
+  <button type="button" class="btn btn-secondary">Cancel </button>
   </div>
 
  
