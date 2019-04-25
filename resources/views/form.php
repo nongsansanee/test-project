@@ -117,10 +117,10 @@
 </div>
 
    
-<div class="container">   
-<form class="form-signin">
+<!-- div class="container">   
+<form class="form-signin" -->
       <?php
-         echo Form::open(array('url' => 'foo/bar'));
+       /*  echo Form::open(array('url' => 'foo/bar'));
             echo "<form class='form-signin'>";
             echo 'Username:';
             echo Form::text('username','Username');
@@ -155,10 +155,10 @@
             
             echo Form::submit('SAVE');
          echo Form::close();
-         echo "</form>";
+         echo "</form>";  */
       ?>
-   </form>
-</div>
+   <!-- /form>
+</div -->
      <script src="../../js/bootstrap.min.js"></script>
      <script src="../../js/bootstrap.bundle.js"></script>
      <script src="../../js/bootstrap.bundle.min.js"></script>

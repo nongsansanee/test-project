@@ -19,5 +19,11 @@ Route::get('/form',function() {
     return view('form');
  });
 
+
+
 Route::get('/validation','ValidationController@showform');
 Route::post('/validation','ValidationController@validateform');
+
+Route::get('/register',"RegisterController@index"); 
+Route::any('register',"RegisterController@save");
+
