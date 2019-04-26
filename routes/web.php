@@ -27,3 +27,7 @@ Route::post('/validation','ValidationController@validateform');
 Route::get('/register',"RegisterController@index"); 
 Route::any('register',"RegisterController@save");
 
+Route::get('/testmenu',function() {
+    return view('testmenu');
+ });
+
