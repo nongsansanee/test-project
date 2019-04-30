@@ -38,8 +38,8 @@
       }
       @font-face {
          font-family: 'Glyphicons Halflings';
-        src: url('../fonts/glyphicons-halflings-regular.eot');
-        src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+        src: url('../../public/fonts/glyphicons-halflings-regular.eot');
+        src: url('../../public/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../public/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../public/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../public/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
       }
 
     </style>
@@ -120,6 +120,11 @@
       <div class="radio">
              <label><input type="radio" name="gender" value="2">Female</label>
       </div>
+
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+    </div>
 
       <div class="form-group">
         <label for="sel1">Group Blood:</label>
