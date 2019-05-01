@@ -31,3 +31,10 @@ Route::get('/testmenu',function() {
     return view('testmenu');
  });
 
+ Route::get('/create-web',function() {
+    return view('create-web');
+ });
+
+
+
+

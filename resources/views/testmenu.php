@@ -60,10 +60,10 @@
   <div class="collapse navbar-collapse" id="navbaCollapseContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="font-color: #3cabfc;">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#" style="font-color: #3cabfc;">หน้าหลัก <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#" style="font-color: #3cabfc;">ติดต่อสอบถาม</a>
       </li>
 <!--      ส่วนของเมนูที่แสดงแบบ dropdown-->
       <li class="nav-item dropdown">
@@ -131,17 +131,17 @@
 <!--container-fluid-->
 
 <!-- test carousel-->
-
-<!-- div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<center>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-color:darkblue">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-80" src="../images/kkt1.jpg" alt="First slide">
+      <img  src="../images/kkt1.jpg" alt="First slide" style="width:70%;">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-80" src="../images/vector-6.jpg" alt="Second slide">
+      <img  src="../images/vector-6.jpg" alt="Second slide" style="width:70%;">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-80" src="../images/maxresdefault.jpg" alt="Third slide">
+      <img  src="../images/maxresdefault.jpg" alt="Third slide" style="width:70%;">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -152,7 +152,12 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div -->
+  </center>
+
+      
+
+
+</div>
 
   
   
